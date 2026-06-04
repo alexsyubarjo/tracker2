@@ -11,6 +11,13 @@ const SEED_DB_FILE = path.join(ROOT, "data", "links.json");
 const DATA_DIR = process.env.VERCEL ? path.join(os.tmpdir(), "consent-link-tracker") : path.join(ROOT, "data");
 const DB_FILE = path.join(DATA_DIR, "links.json");
 
+let redis = null;
+if (process.env.REDIS_URL) {
+  const Redis = require("ioredis");
+  redis = new Redis(process.env.REDIS_URL);
+  redis.on("error", (err) => console.error("Redis Error:", err));
+}
+
 const MIME_TYPES = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -34,6 +41,16 @@ async function ensureDb() {
 }
 
 async function readDb() {
+  if (redis) {
+    try {
+      const data = await redis.get("tracker_db");
+      if (data) return JSON.parse(data);
+    } catch (e) {
+      console.error("Redis Read Error", e);
+    }
+    return { links: [], clicks: [] };
+  }
+
   if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
     try {
       const response = await fetch(process.env.KV_REST_API_URL, {
@@ -63,6 +80,15 @@ async function readDb() {
 }
 
 async function writeDb(db) {
+  if (redis) {
+    try {
+      await redis.set("tracker_db", JSON.stringify(db));
+    } catch (e) {
+      console.error("Redis Write Error", e);
+    }
+    return;
+  }
+
   if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
     try {
       const response = await fetch(process.env.KV_REST_API_URL, {
