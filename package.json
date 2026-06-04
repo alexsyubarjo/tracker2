@@ -1,0 +1,13 @@
+{
+  "name": "consent-link-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A consent-based tracking link website with click analytics.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

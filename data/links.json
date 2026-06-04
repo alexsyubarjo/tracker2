@@ -1,0 +1,258 @@
+{
+  "links": [
+    {
+      "id": "g6Ca-kw",
+      "title": "alex",
+      "destinationUrl": "https://www.youtube.com/watch?app=desktop&v=ytpXVgRJWWU&list=RDytpXVgRJWWU&start_radio=1&ra=m",
+      "disclosure": "ssss",
+      "createdAt": "2026-06-04T14:10:28.808Z"
+    },
+    {
+      "id": "hhif4GA",
+      "title": "Quisioner",
+      "destinationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSchgVMkeNWBw7dtw-sNKT8HGhx3mlSrCirktk_otC46q_ryIA/viewform",
+      "disclosure": "s",
+      "createdAt": "2026-06-04T14:47:36.188Z"
+    }
+  ],
+  "clicks": [
+    {
+      "id": "Rlapeea02ds",
+      "linkId": "g6Ca-kw",
+      "createdAt": "2026-06-04T14:10:35.958Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.6728882827851095,
+        "longitude": 110.94971920214113,
+        "accuracyMeters": 37,
+        "sharedAt": "2026-06-04T14:10:47.099Z"
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=g6Ca-kw",
+      "ipAddressStored": false
+    },
+    {
+      "id": "k03NiFbHbZI",
+      "linkId": "g6Ca-kw",
+      "createdAt": "2026-06-04T14:12:28.860Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=g6Ca-kw",
+      "ipAddressStored": false
+    },
+    {
+      "id": "kgupBh5PHrg",
+      "linkId": "g6Ca-kw",
+      "createdAt": "2026-06-04T14:29:30.550Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.672095229494144,
+        "longitude": 110.94976681255959,
+        "accuracyMeters": 76.81971124030066,
+        "sharedAt": "2026-06-04T14:29:31.929Z"
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=g6Ca-kw",
+      "ipAddressStored": false
+    },
+    {
+      "id": "2zcS1_-cY4A",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T14:47:45.910Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.672356296661806,
+        "longitude": 110.94958728766427,
+        "accuracyMeters": 38,
+        "sharedAt": "2026-06-04T14:47:53.933Z"
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,id;q=0.8",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "TQAlXHnVS70",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T14:49:55.843Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.672099199042495,
+        "longitude": 110.94977155943239,
+        "accuracyMeters": 75.18140645597526,
+        "sharedAt": "2026-06-04T14:50:03.595Z"
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "oP4frN8xZJw",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T14:50:27.604Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "414x896",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.672678536860256,
+        "longitude": 110.94977501580142,
+        "accuracyMeters": 35,
+        "sharedAt": "2026-06-04T14:50:41.239Z"
+      },
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "id-ID,id;q=0.9",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "W7TpkiHFy_c",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T14:55:31.693Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "spuH6acI67E",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T14:56:15.883Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "414x896",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "id-ID,id;q=0.9",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "e0ypbz7n9Js",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:00:40.748Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,id;q=0.8",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "Ak7UHNd3W7g",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:08:33.339Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "1jhHm0wfZXg",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:09:04.071Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "HsiFvafzRHs",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:09:15.713Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "6-6CDchKwqg",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:11:37.170Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "bU6Jg1WL-Cc",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:21:15.693Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "ggK2iWw5pk8",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:21:32.251Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "not_requested",
+      "preciseLocation": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    },
+    {
+      "id": "TxMbDy-nPLw",
+      "linkId": "hhif4GA",
+      "createdAt": "2026-06-04T15:22:46.862Z",
+      "timezone": "Asia/Jakarta",
+      "screen": "1440x900",
+      "locationPermission": "granted",
+      "preciseLocation": {
+        "latitude": -7.672325598111207,
+        "longitude": 110.94973261049081,
+        "accuracyMeters": 38,
+        "sharedAt": "2026-06-04T15:22:51.656Z"
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "id-ID,id;q=0.9",
+      "referrer": "https://freebie-bamboo-armhole.ngrok-free.dev/open.html?id=hhif4GA",
+      "ipAddressStored": false
+    }
+  ]
+}
