@@ -34,11 +34,42 @@ async function ensureDb() {
 }
 
 async function readDb() {
+  if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+    try {
+      const response = await fetch(`${process.env.KV_REST_API_URL}/get/tracker_db`, {
+        headers: { Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}` }
+      });
+      const data = await response.json();
+      if (data && data.result) {
+        return typeof data.result === 'string' ? JSON.parse(data.result) : data.result;
+      }
+    } catch (e) {
+      console.error("KV Read Error", e);
+    }
+    return { links: [], clicks: [] };
+  }
+
   await ensureDb();
   return JSON.parse(await fs.readFile(DB_FILE, "utf8"));
 }
 
 async function writeDb(db) {
+  if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+    try {
+      await fetch(`${process.env.KV_REST_API_URL}/set/tracker_db`, {
+        method: 'POST',
+        headers: { 
+          Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(db)
+      });
+    } catch (e) {
+      console.error("KV Write Error", e);
+    }
+    return;
+  }
+
   await fs.writeFile(DB_FILE, JSON.stringify(db, null, 2));
 }
 
