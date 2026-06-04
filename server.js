@@ -36,12 +36,21 @@ async function ensureDb() {
 async function readDb() {
   if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
     try {
-      const response = await fetch(`${process.env.KV_REST_API_URL}/get/tracker_db`, {
-        headers: { Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}` }
+      const response = await fetch(process.env.KV_REST_API_URL, {
+        method: 'POST',
+        headers: { 
+          Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(["GET", "tracker_db"])
       });
-      const data = await response.json();
-      if (data && data.result) {
-        return typeof data.result === 'string' ? JSON.parse(data.result) : data.result;
+      if (!response.ok) {
+        console.error("KV Read API Error:", await response.text());
+      } else {
+        const data = await response.json();
+        if (data && data.result) {
+          return typeof data.result === 'string' ? JSON.parse(data.result) : data.result;
+        }
       }
     } catch (e) {
       console.error("KV Read Error", e);
@@ -56,14 +65,17 @@ async function readDb() {
 async function writeDb(db) {
   if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
     try {
-      await fetch(`${process.env.KV_REST_API_URL}/set/tracker_db`, {
+      const response = await fetch(process.env.KV_REST_API_URL, {
         method: 'POST',
         headers: { 
           Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}`,
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(db)
+        body: JSON.stringify(["SET", "tracker_db", JSON.stringify(db)])
       });
+      if (!response.ok) {
+        console.error("KV Write API Error:", await response.text());
+      }
     } catch (e) {
       console.error("KV Write Error", e);
     }
